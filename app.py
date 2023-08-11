@@ -35,4 +35,4 @@ def calculate():
     return jsonify(result=result)
 
 if __name__ == '__main__':
-    app.run(port=8000, debug=True)
+    app.run(port=8000)
