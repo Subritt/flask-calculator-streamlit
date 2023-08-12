@@ -1,6 +1,6 @@
 ### Basic Calculator
 
-This basic calculator covers the concept of creating a flask api, and streamlit for frontend.
+This basic calculator covers the concept of creating a `Flask api`, and `Streamlit` for the frontend, and deploying them in cloud using `CI/CD (Continuous Integration / Continuous Deployment)` concept.
 
 #### Technologies used:
 - `Flask` is used to handle the backend. Calculator (Addition, Subtraction, Multiplication, Division) logic is written on the backend. This API accepts a form data consisting of the following and returns a json output `result`.
