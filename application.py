@@ -1,14 +1,14 @@
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 print(__name__)
 
-@app.route('/')
+@application.route('/')
 def home():
     return 'welcome!'
 
-@app.route('/calculate', methods=['GET'])
+@application.route('/calculate', methods=['GET'])
 def calculate():
     print('\nentered calculate method\n')
 
@@ -35,4 +35,4 @@ def calculate():
     return jsonify(result=result)
 
 if __name__ == '__main__':
-    app.run(port=8000)
+    application.run(port=8000)
