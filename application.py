@@ -6,7 +6,7 @@ print(__name__)
 
 @application.route('/')
 def home():
-    return 'welcome!'
+    return 'welcome! This is Backend of Calculator Application'
 
 @application.route('/calculate', methods=['GET'])
 def calculate():
